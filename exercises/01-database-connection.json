@@ -3,14 +3,14 @@
     "host": "localhost",
     "database": "development",
     "port": 5432,
-    "user": "cmsc127user",
-    "password": "cmsc127"
+    "user": "krishiaK2",
+    "password": "jeremiah29:11"
   },
   "test": {
     "host": "localhost",
     "database": "test",
     "port": 5432,
-    "user": "cmsc127user",
-    "password": "cmsc127"
+    "user": "krishiaK2",
+    "password": "jeremiah29:11"
   }
 }
