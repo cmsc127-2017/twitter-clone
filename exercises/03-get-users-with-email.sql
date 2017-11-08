@@ -12,3 +12,5 @@
 --     result : SOME AWESOME QUERY email = 'arnellebalane@gmail.com';
 --
 -- Write your query below:
+
+SELECT * FROM users WHERE email = '{{email}}';
