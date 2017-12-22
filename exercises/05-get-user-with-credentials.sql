@@ -13,3 +13,10 @@
 --     result : SOME AWESOME QUERY password = 'arnellebalane@gmail.com';
 --
 -- Write your query below:
+
+
+SELECT * FROM users WHERE (email = '{{identifier}}' AND password = '{{password}}')
+UNION
+SELECT * FROM users WHERE (username = '{{identifier}}' AND password = '{{password}}') ;
+
+
