@@ -15,3 +15,6 @@
 --     result : SOME AWESOME QUERY email = 'arnellebalane@gmail.com';
 --
 -- Write your query below:
+
+INSERT INTO users (fullname, username, email, password)
+VALUES ('{{fullname}}', '{{username}}', '{{email}}', '{{password}}');
